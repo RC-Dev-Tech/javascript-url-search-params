@@ -16,8 +16,8 @@
 這邊直接使用 JavaScript 的 window.location.search 屬性來獲取當前 URL 中的查詢參數。<br>
 window.location.search 返回的是 URL 中 ? 符號之後的查詢字符串，包括 ? 符號本身。<br>
 
-例如，如果當前 URL 是 '''https://example.com/page?param1=value1&param2=value2'''<br>
-則 window.location.search 的值將是 '''?param1=value1&param2=value2'''<br>
+例如，如果當前 URL 是 **https://example.com/page?param1=value1&param2=value2**<br>
+則 window.location.search 的值將是 **?param1=value1&param2=value2**<br>
 
 要進一步處理這個查詢字符串，您可以使用 JavaScript 內建的 URLSearchParams 物件或自行解析字符串的方式來獲取特定的參數值。<br>
 > 注意，這些方法只能在 Web 平台上運行，而不適用於原生平台。<br>
